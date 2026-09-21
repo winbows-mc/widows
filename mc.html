@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Eaglercraft网页版导航
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #1a1a1a;
+            font-family: "Microsoft YaHei", sans-serif;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        /* 铁砧加载全屏界面 */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #111111;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.8s ease;
+        }
+        #anvil-img {
+            width: 180px;
+            image-rendering: pixelated;
+            margin-bottom: 24px;
+        }
+        #countdown-text {
+            font-size: 20px;
+            color: #cccccc;
+        }
+
+        /* 主界面布局 */
+        #main-screen {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        video {
+            image-rendering: pixelated;
+            width: 280px;
+        }
+        .title {
+            font-size: 28px;
+            color: #f0f0f0;
+            text-align:center;
+        }
+        .info-text{
+            font-size:16px;
+            color:#ddd;
+            line-height:1.7;
+            text-align:center;
+        }
+        a{
+            color:#63b8ff;
+            text-decoration:none;
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        .section-title{
+            font-size:22px;
+            color:#ffcc66;
+            margin-top:12px;
+            margin-bottom:8px;
+        }
+        ul{
+            width:100%;
+            padding-left:22px;
+            line-height:1.8;
+            color:#dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 铁砧10秒全屏加载 -->
+    <div id="loading-screen">
+        < img id="anvil-img" src="anvil.png" alt="铁砧">
+        <div id="countdown-text">加载中… 10</div>
+    </div>
+
+    <!-- 完整主界面 -->
+    <div id="main-screen">
+        <div class="title">Eaglercraft网页版导航</div>
+        <video src="1234.mp4" autoplay loop muted playsinline>
+            浏览器不支持视频播放
+        </video>
+
+        <div class="info-text">
+            <p><a href=" " target="_blank" rel="noopener noreferrer">全B站最全的Eaglercraft网页版</a ></p >
+            <p>在网页里玩我的世界：<a href="https://mcjs‑beta.144449.xyz" target="_blank" rel="noopener noreferrer">mcjs‑beta.144449.xyz</a ></p >
+            <p>点击看视频：<a href="https://www.bilibili.com" target="_blank" rel="noopener noreferrer">www.bilibili.com</a ></p >
+            <p>以后此网页将会迁移：<a href="https://windands.eu.org" target="_blank" rel="noopener noreferrer">https://windands.eu.org</a ></p >
+            <p>点击观看自愿被骗视频：<a href="https://b23.tv/ulIoExV" target="_blank" rel="noopener noreferrer">Never Gonna Give You Up</a ></p >
+        </div>
+
+        <div class="section-title">Minecraft原版(Eaglercraft原版) 共62个版本</div>
+        <ul>
+<li>Minecraft Pre‑Classic rd‑131655 <a href="https://radmanplays.github.io/rd-131655/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Pre‑Classic rd‑132211 <a href="https://radmanplays.github.io/rd-132211/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Pre‑Classic rd‑132328 <a href="https://radmanplays.github.io/rd-132328/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Pre‑Classic rd‑160052 <a href="https://radmanplays.github.io/rd-160052/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Pre‑Classic rd‑161348 <a href="https://radmanplays.github.io/rd-161348/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.11a <a href="https://radmanplays.github.io/classic-0.0.11a/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.12a_03 <a href="https://radmanplays.github.io/classic-0.0.12a_03/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.13a_03 <a href="https://radmanplays.github.io/classic-0.0.13a_03/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.14a_08 <a href="https://radmanplays.github.io/classic-0.0.14a_08/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.15a <a href="https://radmanplays.github.io/classic-0.0.15a/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.16a_02 <a href="https://radmanplays.github.io/classic-0.0.16a_02/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.17a <a href="https://radmanplays.github.io/classic-0.0.17a/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.18a_02 <a href="https://radmanplays.github.io/classic-0.0.18a_02/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.19a_06 <a href="https://radmanplays.github.io/classic-0.0.19a_06/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.20a_02 <a href="https://radmanplays.github.io/classic-0.0.20a_02/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.21a <a href="https://radmanplays.github.io/classic-0.0.21a/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.22a_05 <a href="https://radmanplays.github.io/classic-0.0.22a_05/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.0.23a_01 <a href="https://radmanplays.github.io/classic-0.0.23a_01/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.24_03 <a href="https://radmanplays.github.io/classic-0.24_03/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.25_05 <a href="https://radmanplays.github.io/classic-0.25_05/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic 0.30 <a href="https://radmanplays.github.io/classic-0.30/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Indev 20100214 <a href="https://eaglercraftnoa.github.io/version/Indev_20100214_WASM-GC.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Indev 20100219 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft%20Indev%2020100219-WASM.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Indev 20100223 <a href="https://rooseguy8.github.io/Eaglercraft-Indev-20100223-WASM/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Infdev 20100630_01 <a href="https://eaglercraftnoa.github.io/version/infdev-wasm-gc.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.0.1 <a href="https://eaglercraftnoa.github.io/version/Alpha%201.0.1_01-JS.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.0.4 <a href="https://eaglercraftnoa.github.io/version/Alpha%201.0.4-JS.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.0.6 <a href="https://eaglercraft.uk/archive/Alpha.1.0.6_03.25w23a.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.0.16 <a href="https://eaglercraft.dev/clients/Alpha%201.0.16%20WASM/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.1.2_01 <a href="https://rooseguy8.github.io/Eaglercraft-Alpha-1.1.2_01/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.2.6 <a href="https://eaglercraftnoa.github.io/version/eaglercraft-alpha-1.2.6.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.0.2 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft_Beta_1.0.2.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.1_02 <a href="https://eaglercraft.dev/clients/Beta%201.1%20JS/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.2_02 <a href="https://eaglercraft.dev/clients/Beta%201.2%20JS/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.3_01 <a href="https://playmcjscc.pages.dev/legacy/beta1.3" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.4_01 <a href="https://eaglercraft.dev/clients/Beta%201.4%20JS/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.5_01 <a href="https://eaglercraft.uk/archive/Beta.1.5_01.25w26a.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.6 Test Build 3 <a href="https://eaglercraft.dev/clients/Beta%201.6%20WASM/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.7.3 <a href="https://eaglercraft.ir/zh/play/1.7.3?touch=false&userscript=" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.8.1 <a href="https://eaglercraft.dev/clients/Beta%201.8.1%20JS/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Beta 1.9 Pre 5 <a href="https://html.cafe/xa5036fed" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.0.0 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft-1.0-WASM-GC.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.1 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft_1.1.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.2.3 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft_1.2.3_WASM-GC.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.2.5 <a href="https://eaglercraft.dev/clients/Release%201.2.5%20WASM/index.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.3.2 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft_1_3_2.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.4.7 <a href="https://rooseguy8.github.io/Eaglercraft-1.4.7/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.5.2 <a href="https://play.mcjs.cc/1.5.2/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.6.4 <a href="https://eaglercraftnoa.github.io/version/Eaglercraft%201.6.4.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.7.10 <a href="https://eymenwsmc.site/1.7.10" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.8.8 <a href="https://play.mcjs.cc/1.8.8/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.12.2 u3中文 <a href="https://playmcjscc.pages.dev/1.12.2wasm/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.13.2 <a href="https://enchantment-niko.github.io/webmc/assets/1.13.2.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.14.4 <a href="https://enchantment-niko.github.io/webmc/assets/1.14.4.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.16.5 <a href="https://enchantment-niko.github.io/webmc/assets/1.16.5.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.17.1 <a href="https://webmc.xyz/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.20.6 <a href="https://enchantment-niko.github.io/webmc/assets/1.20.6.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.21.11 <a href="https://enchantment-niko.github.io/webmc/assets/1.21.11.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 26.1.2 <a href="https://enchantment-niko.github.io/webmc/assets/26.1.2.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 26.2 <a href="https://enchantment-niko.github.io/webmc/assets/26.2.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+        </ul>
+
+        <div class="section-title">Minecraft其他版本 共15个版本</div>
+        <ul>
+<li>Minecraft Pre‑Classic rd‑132211 Mode <a href="https://radmanplays.github.io/rd-recrafted/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.9.4(1.8.8换皮) <a href="https://dthesle.github.io/ECX/eagler-files/1.9/EaglercraftL_1.9.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.11.2(1.8.8换皮) <a href="https://nagareboshi-site.github.io/EaglercraftExtra/clients/1.11/eag1_11_2.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.8.8 WASM <a href="https://play.mcjs.cc/1.8.8wasm/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.8.8 u27 <a href="https://mc.ilqx.dpdns.org/MC/EaglercraftX-MCJE1.8.8/chinese-pc/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.6.4 Modpack <a href="https://eaglercraft.dev/clients/Eaglercraft%201.6.4%20Modpack%20Ultimate%20WASM/index.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.5.2 IMC汉化 <a href="https://mc.ilqx.dpdns.org/MC/Eaglercraft-MCJE1.5.2/1.5.2-IMC.RE" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.4.7 WASM <a href="https://rooseguy8.github.io/Eaglercraft-1.4.7-WASM/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Alpha v1.2.6 WASM <a href="https://eaglercraft.dev/clients/Alpha%201.2.6%20WASM/index.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.8.8 Cheats <a href="https://death68093.github.io/DeathClient-EaglerCraft-/client/versions/1.8/1.4.2/wasm/index.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.20.1(1.8.8换皮) <a href="https://eaglercraft.dev/clients/EaglyMC%201.20%20WASM/index.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Classic Hacks <a href="https://games.smgoro.com/ngs/mcjs/play/minecraft-beta/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft Portable Edition v0.6.1 alpha <a href="https://enchantment-niko.github.io/webmc/assets/0.6.1-pe.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 1.5.2 Clients <a href="https://eaglercraft.dev/clients/Precision%20Client%20Beta%202%20JS/index.html" target="_blank" rel="noopener noreferrer">打开</a ></li>
+<li>Minecraft 26.2(Owlcraft) <a href="https://owlcraft.raymondjxu.net/" target="_blank" rel="noopener noreferrer">打开</a ></li>
+        </ul>
+
+    </div>
+
+<script>
+let seconds = 10;
+const countdownEl = document.getElementById('countdown-text');
+const loadingScreen = document.getElementById('loading-screen');
+const mainScreen = document.getElementById('main-screen');
+
+const timer = setInterval(()=>{
+    seconds--;
+    countdownEl.innerText = `加载中… ${seconds}`;
+    if(seconds <= 0){
+        clearInterval(timer);
+        loadingScreen.style.opacity = 0;
+        setTimeout(()=>{
+            loadingScreen.style.display = "none";
+            mainScreen.style.display = "flex";
+        },800);
+    }
+},1000);
+</script>
+
+</body>
+</html>
